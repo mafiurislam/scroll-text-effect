@@ -1,0 +1,57 @@
+#main{
+    width:100%;
+    min-height:100vh;
+
+}
+
+.one{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+}
+   
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-area{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    opacity: .2;
+    left: 10%;
+}
+
+.text-area-hover{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    opacity: 1;
+    left: 10%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.text-area-hover h1{
+    width: 0%;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.text-area-hover h2{
+    width: 0%;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+   
+.text-area h1, .text-area-hover h1{
+    font-size: 6vw;
+}
+.text-area h2, .text-area-hover h2{
+    font-size: 6vw;
+}
+
